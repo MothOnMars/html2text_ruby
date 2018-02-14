@@ -90,7 +90,7 @@ class Html2Text
       when "h1", "h2", "h3", "h4", "h5", "h6", "ol", "ul"
         "\n"
 
-      when "tr", "p", "div"
+      when "tr", "p", "div", "main", "article"
         "\n"
 
       when "td", "th"
